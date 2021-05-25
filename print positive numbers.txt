@@ -1,6 +1,6 @@
 def positives(array):
 	for val in array:
 		if val>=0:
-			print(val,end=(" "))
+			print(val,end=(","))
 input_list=list(map(int,input().split()))
 positives(input_list)
